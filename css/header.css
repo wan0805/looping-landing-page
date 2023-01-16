@@ -1,0 +1,148 @@
+.header__container{
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url("../images/desktop/image-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 7rem;
+}
+.header,.menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.menu{
+    gap:2rem;
+}
+.menu__list{
+    padding: 0px 10px;
+}
+.menu__item{
+    font-family: 'Alata', sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+    position: relative;
+}
+.menu__item::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    margin-left: 6px;
+    background-color: hsl(0, 0%, 100%);
+    transition: 700ms;
+    position: absolute;
+    top: 25px;
+}
+.menu__item:hover.menu__item::after{
+    width: 70%;
+}
+.navegation__button{
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.modal__hamburguer{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 0%);
+    padding: 2rem 7rem;
+    display:none;
+    flex-direction: column;
+    gap:4rem;
+    position:fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 3;
+}
+.modal__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal__close{
+    cursor: pointer;
+}
+.modal__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:2rem;
+}
+.menu__item--uppercase{
+    text-transform: uppercase;
+}
+.modal__hamburguer.active{
+    display: flex;
+}
+
+/* header introduction */
+
+.header__introdution{
+    border: 2px solid hsl(0, 0%, 100%);
+    width: 60%;
+    padding: 2rem;
+    margin-top: 10rem;
+}
+.header__title{
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 1.2;
+}
+
+@media (max-width:1109px){
+    .header__container{
+        width: 100%;
+        height: 80vh;
+        padding: 4rem 2rem;
+    }
+    .header{
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .navegation__button{
+        display: block;
+    }
+    .header__introdution{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15rem;
+    }
+}
+@media (max-width:500px){
+    .header__container{
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url("../images/mobile/image-hero.jpg");
+        padding:2rem;
+    }
+    .modal__hamburguer{
+      padding: 2rem;  
+    }
+    .modal__menu{
+        align-items: flex-start;
+    }
+    .header__introdution{
+        margin: 0 auto;
+        margin-top: 6rem;
+    }
+    .header__title{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:365px){
+    .header__title{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width:328px){
+    .header__title{
+        font-size: 12px;
+    }
+}

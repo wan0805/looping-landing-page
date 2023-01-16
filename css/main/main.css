@@ -1,0 +1,21 @@
+@import url("/css/main/creations.css");
+@import url("/css/main/interactive.css");
+
+.main{
+    padding: 0px 7rem;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+@media (max-width:1000px){
+    .main{
+        padding:0 2rem;
+        margin-top:7rem;
+        margin-bottom: 5rem;
+    }
+}
+@media (max-width:500px){
+    .main{
+        padding:0 2rem;
+        margin-top:2rem;
+    }
+}

@@ -1,0 +1,69 @@
+# Frontend Mentor - solução de página de destino do Loopstudios
+
+Esta é uma solução para o [desafio da página de destino do Loopstudios no Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+
+## Índice
+
+- [Visão geral](#visão-geral)
+  - [O desafio](#o-desafio)
+  - [Captura de tela](#captura-de-tela)
+  - [Links](#links)
+- [meu processo](#meus-processo)
+  - [ferramentas](#habilidades-usadas)
+  - [O que aprendi](#o-que-aprendi)
+- [Autor](#autor)
+- [Agradecimentos](#agradecimentos)
+
+
+
+## Visão Geral
+
+### O desafio
+
+ Os usuários devem ser capazes de:
+
+- Veja o layout ideal para o site, dependendo do tamanho da tela do dispositivo
+- Veja os estados de foco para todos os elementos interativos na página.
+
+### Captura de tela
+
+### Desktop
+![desktop](./design/desktop-design.jpg)
+
+### Mobile
+![mobile](./design/mobile-design.jpg)
+
+
+### Links
+
+- URL da solução: [Adicionar URL da solução aqui](https://your-solution-url.com)
+- URL do site ao vivo: [Adicione URL do site ao vivo aqui](https://your-live-site-url.com)
+
+## Meus Processos
+
+### Habilidades usadas
+
+- HTML5 markup
+- Propriedades Css
+- Flexbox
+- CSS Grid
+- Media query
+- Javascript
+
+
+### O que eu aprendi
+
+Como utilizar a propriedade position para a navegacao mobile e utilizar o javascript para mostrar o menu ao clicar no menu hamburguer
+
+
+
+## Autor
+
+- Frontend Mentor - [Wanderson Duarte](https://www.frontendmentor.io/profile/wan0805)
+- Linkedin - [Wanderson Duarte](http://www.linkedin.com/in/wanderson-duarte-a9778711b)
+
+
+## Agradecimentos
+
+Quero agradecer ao Front Mentor pelo desafio, pois com ele eu pude colocar meus conhecimentos e tambem adquirir mais conhecimentos na criação de landing pages.
+
